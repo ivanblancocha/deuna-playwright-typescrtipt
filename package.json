@@ -1,0 +1,30 @@
+{
+  "name": "deuna-playwright-typescrtipt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome:headed": "playwright test --project=chromium --headed",
+    "test:chrome:headless": "playwright test --project=chromium",
+    "test:master": "playwright test --grep @regression"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanblancocha/deuna-playwright-typescrtipt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ivanblancocha/deuna-playwright-typescrtipt/issues"
+  },
+  "homepage": "https://github.com/ivanblancocha/deuna-playwright-typescrtipt#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0"
+  }
+}
